@@ -3,7 +3,31 @@ html
 {
 	 font-family: Verdana;
 	 text-align: center;
-	 background-color: white;
+	 background-color: #F4F4F4;
+}
+
+#logo
+{
+	margin-right: 670px;
+	width: 210px;
+	height: 50px;
+}
+
+h1 
+{
+	margin-top: 60px;
+	font-size: 36px;
+	font-family: monospace;
+}
+
+#box
+{
+	margin: 90px auto;
+	width: 900px;
+	height: 350px;
+	border: 2px solid  black;
+	border-radius: 5px;
+	
 }
 
 #ctd ul li
@@ -42,7 +66,7 @@ p
 	 text-decoration: none;
 	 font-family: monospace;
 	 cursor: pointer;
-	 background-color: #7dd181;
+	 background-color: #7DD181;
 	 border: 1px solid #7dd181;
 }
 
@@ -59,17 +83,22 @@ p
 
 .btOff
 {
-	 color: green;
+	 color: #38b000;
 }
 
-#on
+.status
 {
-	 color: #70e000;
+	font-size: 12px;
 }
 
-#off
+#stOn
 {
-	 color: red;
+	 color: #38b000;
+}
+
+#stOff
+{
+	 color: #FD0000;
 }
 
 hr
