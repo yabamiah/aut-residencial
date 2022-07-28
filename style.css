@@ -48,7 +48,7 @@ p
 
 #ctd input
 {
-	 background-color: rgb(249, 249, 252);
+	background-color: rgb(249, 249, 252);
     border: 1px solid #00000044;
     border-radius: 5px;
     height: 1.6em;
@@ -62,32 +62,41 @@ p
 /* Customização dos botões*/
 .bts
 {
-	 color: blak;
-	 width: 160px;
-	 height: 50px;
-	 font-size: 23px;
-	 line-height: 1.5;
-	 text-decoration: none;
-	 font-family: monospace;
-	 cursor: pointer;
-	 background-color: #7DD181;
-	 border: 1px solid #7dd181;
-}
-
-.bts:hover
-{
-	 background-color: #588157;
-	 border: 1px solid #588157;
+	color: blak;
+	width: 160px;
+	height: 50px;
+	font-size: 23px;
+	line-height: 1.5;
+	text-decoration: none;
+	font-family: monospace;
+	cursor: pointer;
+	/*background-color: #7DD181;*/
+	border: 1px solid;
+	border-radius: 2px;
 }
 
 .btOn
 {
-	 color: black;
+	background-color: #7dd181;
+	border-color: #7DD181;
+}
+
+.btOn:hover
+{
+	background-color: #61b964;
+	border-color: #61b964;
 }
 
 .btOff
 {
-	 color: #38b000;
+	background-color: gray;
+	border-color: gray;
+}
+
+.btOff:hover
+{
+	background-color: rgb(97, 96, 96);
+	border-color: rgb(97, 96, 96);
 }
 
 /* Status dos botões */
