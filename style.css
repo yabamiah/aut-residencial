@@ -31,7 +31,7 @@ p
 {
 	margin: 90px auto;
 	width: 900px;
-	height: 350px;
+	height: 270px;
 	border: 2px solid  black;
 	border-radius: 5px;
 	
@@ -40,10 +40,10 @@ p
 
 #ctd ul li
 {
-	 margin-top: 80px;
-	 margin-bottom: 260px;
+	 margin-top: 50px;
+	 margin-bottom: 180px;
 	 display: inline-block;
-	 padding-right: 34px;
+	 padding-right: 45px;
 }
 
 #ctd input
@@ -51,6 +51,7 @@ p
 	background-color: rgb(249, 249, 252);
     border: 1px solid #00000044;
     border-radius: 5px;
+	width: 70px;
     height: 1.6em;
     font-size: 12px;
     appearance: none;
@@ -72,7 +73,7 @@ p
 	cursor: pointer;
 	/*background-color: #7DD181;*/
 	border: 1px solid;
-	border-radius: 2px;
+	border-radius: 3px;
 }
 
 .btOn
@@ -102,7 +103,7 @@ p
 /* Status dos botões */
 .status
 {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 #stOn
