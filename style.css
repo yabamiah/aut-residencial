@@ -29,21 +29,27 @@ p
 /* Tentando organizar os botões */
 #box
 {
-	margin: 90px auto;
-	width: 900px;
-	height: 270px;
+	margin: 80px auto auto auto;
+	width: 600px;
+	height: 340px;
 	border: 2px solid  black;
 	border-radius: 5px;
 	
 }
 
-
-#ctd ul li
+#ctd
 {
-	 margin-top: 50px;
-	 margin-bottom: 180px;
-	 display: inline-block;
-	 padding-right: 45px;
+	margin: auto;
+}
+
+#ctd ul
+{
+	list-style: none;
+	display: grid;
+	grid-template-columns: 200px 200px;
+	grid-row: auto auto;
+	grid-column-gap: 120px;
+	grid-row-gap: 40px;
 }
 
 #ctd input
