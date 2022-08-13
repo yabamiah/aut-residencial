@@ -6,118 +6,36 @@ html
 	 background-color: #F4F4F4;
 }
 
-#logo
-{
-	margin-right: 670px;
-	width: 210px;
-	height: 50px;
-}
+#logo{ margin-right: 670px; width: 210px; height: 50px;}
 
-h1 
-{
-	margin-top: 60px;
-	font-size: 36px;
-	font-family: monospace;
-}
+h1 { margin-top: 60px; font-size: 36px; font-family: monospace;}
 
-p
-{
-	 font-size: small;
-	 color:black;
-}
+p{	font-size: small; color:black;}
 
 /* Tentando organizar os botões */
-#box
-{
-	margin: 80px auto auto auto;
-	width: 600px;
-	height: 340px;
-	border: 2px solid  black;
-	border-radius: 5px;
-	
-}
+#box{ margin: 80px auto auto auto; width: 600px; height: 340px; border: 2px solid  black; border-radius: 5px;}
 
-#ctd
-{
-	margin: auto;
-}
+#ctd {margin: auto;}
 
-#ctd ul
-{
-	list-style: none;
-	display: grid;
-	grid-template-columns: 200px 200px;
-	grid-row: auto auto;
-	grid-column-gap: 120px;
-	grid-row-gap: 40px;
-}
+#ctd ul { list-style: none; display: grid; grid-template-columns: 200px 200px; grid-row: auto auto; grid-column-gap: 120px; grid-row-gap: 40px;}
 
-#ctd input
-{
-	background-color: rgb(249, 249, 252);
-    border: 1px solid #00000044;
-    border-radius: 5px;
-	width: 70px;
-    height: 1.6em;
-    font-size: 12px;
-    appearance: none;
-    outline: 0;
-    white-space: pre;
-}
+#ctd input { background-color: rgb(249, 249, 252); border: 1px solid #00000044; border-radius: 5px; width: 70px; height: 1.6em; font-size: 12px; appearance: none; outline: 0; white-space: pre;}
 
 
 /* Customização dos botões*/
-.bts
-{
-	color: blak;
-	width: 160px;
-	height: 50px;
-	font-size: 23px;
-	line-height: 1.5;
-	text-decoration: none;
-	font-family: monospace;
-	cursor: pointer;
-	/*background-color: #7DD181;*/
-	border: 1px solid;
-	border-radius: 3px;
-}
+.bts { color: blak; width: 160px; height: 50px; font-size: 23px; line-height: 1.5; text-decoration: none; font-family: monospace; cursor: pointer; border: 1px solid; border-radius: 3px;}
 
-.btOn
-{
-	background-color: #7dd181;
-	border-color: #7DD181;
-}
+.btOn { background-color: #7dd181; border-color: #7DD181;}
 
-.btOn:hover
-{
-	background-color: #61b964;
-	border-color: #61b964;
-}
+.btOn:hover { background-color: #61b964; border-color: #61b964;}
 
-.btOff
-{
-	background-color: gray;
-	border-color: gray;
-}
+.btOff { background-color: gray; border-color: gray;}
 
-.btOff:hover
-{
-	background-color: rgb(97, 96, 96);
-	border-color: rgb(97, 96, 96);
-}
+.btOff:hover { background-color: rgb(97, 96, 96); border-color: rgb(97, 96, 96);}
 
 /* Status dos botões */
-.status
-{
-	font-size: 11px;
-}
+.status{font-size: 11px;}
 
-#stOn
-{
-	 color: #38b000;
-}
+#stOn{color: #38b000;}
 
-#stOff
-{
-	 color: #FD0000;
-}
+#stOff{color: #FD0000;}
