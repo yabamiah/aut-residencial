@@ -22,7 +22,9 @@
             client.println("</style>");
             client.println("<title>EletronJun ESP32 Local</title></head>");
             
+            client.println("<a href=\"https://eletronjun.com.br/"\><img id=\"logo"\ src=\"Logo Colorida-03.png"\></a>");
             client.println("<body><h1>EletronJun ESP32 Web Server</h1>");
+            client.println("<div id="box"> <div id="ctd">");
             
             //Imprime status atual do Relé 1
             client.println("<p>RELAY 1 Status: " + RL1_status + "</p>");
@@ -66,6 +68,7 @@
             //Definir horario para ligar
             //Relé 1
             //Relé 2
+            
 
             client.println("</body></html>");
             client.println();

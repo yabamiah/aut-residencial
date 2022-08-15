@@ -9,8 +9,13 @@
   </head>
 
   <body>
-
-	<a href="https://eletronjun.com.br/"><img id="logo" src="Logo Colorida-03.png"></a>
+	<script>
+		function getTime() {
+			Console.log("Aqui!!");
+		}
+	 </script>
+	
+	<a href="https://eletronjun.com.br/"><img id="logo" src="./Logo Colorida-03.png"></a>
 	<h1>EletronJun ESP32 Web Server</h1>
 
 	<div id="box">
@@ -20,34 +25,41 @@
 			<li>
 				<p class="status">Botao 1 Status: <spam id="stOff">OFF</spam></p>
 				<p><a href="par1.html"> <button class="bts btOff"> Botão 1 </button> </a></p>
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
+				<input type="datetime" id="liga1"  placeholder="hh:mm:ss">
+				<input type="datetime" id="desliga1"  placeholder="hh:mm:ss">
+				<button onclick="" class="btCheck">check</button>
 			</li>
 
 			<li>
 				<p class="status">Botao 2 Status: <spam id="stOn">ON</spam></p>
 				<p><a href="par2.html"> <button class="bts btOn"> Botão 2 </button> </a> </p>
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
+				<input type="datetime" id="liga2"  placeholder="hh:mm:ss">
+				<input type="datetime" id="desliga2"  placeholder="hh:mm:ss">
+				<button type="button" onclick="document.getElementById('demo').innerHTML = Date()" class="btCheck">check</button>
 			</li>
 
 			<li>
 				<p class="status">Botao 3 Status: <spam id="stOff">OFF</spam></p>
 				<p><a href="par3.html"><button class="bts btOff"> Botão 3 </button> </a></p>
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
+				<input type="datetime" id="liga3"  placeholder="hh:mm:ss">
+				<input type="datetime" id="desliga3"  placeholder="hh:mm:ss">
+				<button onclick="getTime()" class="btCheck">check</button>
 			</li>
 
 			<li>
 				<p class="status">Botao 4 Status: <spam id="stOn">ON</spam></p>
 				<p><a href="par4.html"><button class="bts btOn"> Botão 4 </button> </a></p>
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
-				<input type="datetime" id="hora" name="hora" placeholder="hh:mm:ss">
+				<input type="datetime" id="liga4"  placeholder="hh:mm:ss">
+				<input type="datetime" id="desliga4"  placeholder="hh:mm:ss">
+				<button onclick="getTime()" class="btCheck">check</button>
 			</li>
 			
 			</ul>
 		</div>
+		
 	 </div>
+
+	
 
   </body>
   
