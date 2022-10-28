@@ -9,8 +9,13 @@ Projeto desenvolvido para um minicurso que foi ministrado para a Semana Universi
 
 ## Equipe:
 Mateus S. - Cicuito de Chaveamento e Alimentação
+
 Laura - Cicuito de Chaveamento e Alimentação
+
 Ludmylla - Firmware
+
 Karen - Firmware 
+
 Gian - Design e HTML/CSS
+
 Vinícius - Design e HTML/CSS
